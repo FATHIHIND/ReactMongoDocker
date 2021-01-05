@@ -6,7 +6,7 @@ services:
         build: ./api
         ports:
             - "4000:4000" 
-        depends_on: :
+        depends_on: : 
             - mongo
     client:
         container_name: client

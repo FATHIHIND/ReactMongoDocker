@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Node, Express and Mongo backend",
   "main": "index.js",
-  "repository": "github:mannyhenri/node-mongo-docker",
+  "repository": "github:fathihind/reactmongodocker",
   "scripts": {
     "start": "nodemon ./index.js --exec babel-node -e js"
   },
-  "author": "Emmanuel Henri",
+  "author": "FATHI Hind",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
