@@ -5,7 +5,7 @@ services:
         restart: always
         build: ./api
         ports:
-            - "4000:4000"
+            - "4000:4000" 
         depends_on: :
             - mongo
     client:
